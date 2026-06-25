@@ -20,7 +20,7 @@
 ## 💡 En une phrase
 
 Un document de **30 pages** que personne n'a le temps de lire devient une
-**synthèse d'une ou deux pages** — structurée, fidèle au texte, et qui cite ses sources.
+**synthèse d'une page** — structurée, fidèle au texte, et qui cite ses sources.
 
 ## 🎯 Le problème
 
@@ -122,6 +122,32 @@ Une fois installé, depuis n'importe quel dossier de travail :
 Pour tester sans rien installer, le dossier `exemple/` contient déjà un document
 prêt à analyser.
 
+> ℹ️ **Bon à savoir.** Pour les documents dont les *tableaux ou graphiques sont en
+> image*, l'outil s'appuie sur un petit utilitaire gratuit (déjà présent sur la
+> plupart des Mac et Linux). S'il n'est pas disponible, l'outil fonctionne quand
+> même sur le texte — et le signale, plutôt que de passer à côté en silence.
+
+## 🔬 La méthodologie d'analyse
+
+Le cœur du projet n'est pas le code, c'est la **méthode** imposée à l'IA — la même
+qu'un analyste suivrait pour produire une note sérieuse. En 5 étapes :
+
+1. **Tout lire, images comprises.** Beaucoup de documents cachent leurs données
+   dans des **tableaux et graphiques en image** (rapports, études, scans). L'outil
+   extrait ces images et les fait *regarder* à l'IA — pas seulement le texte. Rien
+   n'est laissé de côté.
+2. **Hiérarchiser l'information.** On sépare l'essentiel (la thèse, l'enjeu) des
+   détails, pour qu'un lecteur pressé comprenne en premier ce qui compte.
+3. **Tracer chaque affirmation.** Chaque point clé et chaque chiffre renvoie à sa
+   **page d'origine** : la synthèse est vérifiable, pas une « boîte noire ».
+4. **Expliquer le vocabulaire.** Les termes techniques sont définis simplement,
+   pour que la synthèse soit compréhensible par tous.
+5. **Distinguer les faits des limites.** On sépare ce que dit le document de ses
+   zones d'ombre, et on signale ce qui manque plutôt que de l'inventer.
+
+> Cette démarche — *lire en entier, hiérarchiser, sourcer, vulgariser, nuancer* —
+> est exactement ce qu'on attend d'une bonne note de synthèse professionnelle.
+
 ## 📁 Contenu du repo
 
 ```
@@ -129,10 +155,11 @@ prêt à analyser.
 ├── README.md                  ← ce fichier (la vitrine)
 ├── assets/apercu.png          ← l'infographie
 ├── synthese-document-pdf/     ← LE SKILL — c'est ce dossier qu'on installe
-│   └── SKILL.md               ←   la méthode que suit l'IA (le cœur du projet)
+│   ├── SKILL.md               ←   la méthode que suit l'IA (le cœur du projet)
+│   └── extract_images.py      ←   extrait les tableaux/figures en image du PDF
 └── exemple/                   ← bac à sable pour tester
     ├── pdf/                   ←   document de démonstration
-    └── rapport/               ←   sortie générée
+    └── rapport/               ←   synthèse générée (Markdown + PDF)
 ```
 
 ## 🛡️ Pourquoi c'est fiable

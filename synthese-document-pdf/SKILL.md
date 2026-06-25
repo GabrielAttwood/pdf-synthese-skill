@@ -46,7 +46,7 @@ python3 extract_images.py <document.pdf> images/
 (Le script est fourni avec ce skill. Dépendances : `pip install pypdf pillow`.)
 
 Il inspecte les objets image du PDF (`/XObject` de sous-type `/Image`), décode
-leurs données et les écrit en PNG/JPG dans `images/`.
+leurs données et les écrit en PNG dans `images/`.
 
 Ensuite :
 
@@ -56,6 +56,19 @@ Ensuite :
   incohérent), s'appuyer en priorité sur les images pour rédiger la synthèse.
 - Reporter les **données chiffrées issues des tableaux/figures en image** dans la
   section « Données & faits marquants », en citant la page.
+
+#### Si l'extraction d'images n'est pas possible (dégradation propre)
+
+L'extraction nécessite Python 3 et les bibliothèques `pypdf` / `pillow`. Si elles
+sont **absentes** (l'installation échoue ou n'est pas souhaitée) :
+
+- **Ne pas s'arrêter.** Continuer à produire la synthèse à partir du texte.
+- **Avertir clairement** l'utilisateur, et ajouter en haut du rapport une note du
+  type :
+  > ⚠️ *Images non analysées (extraction indisponible). Si ce document contient
+  > des tableaux ou figures en image, des données peuvent manquer.*
+- Proposer à l'utilisateur d'installer les dépendances (`pip install pypdf pillow`)
+  puis de relancer s'il veut une analyse complète.
 
 ## Sortie
 
