@@ -36,13 +36,24 @@ def extract_images(pdf_path: str, out_dir: str = "images") -> int:
 
     for page_num, page in enumerate(reader.pages, start=1):
         # page.images parcourt les /XObject de type image, décode les données
-        # (get_data + filtres /DCTDecode, /FlateDecode...) et fournit des octets
-        # prêts à écrire, avec une extension adaptée.
+        # (get_data + filtres /DCTDecode, /FlateDecode, /JPXDecode...) et expose
+        # à la fois les octets bruts (.data) et un objet image Pillow (.image).
         for image in page.images:
             count += 1
-            filename = out / f"page{page_num:03d}_{count:03d}_{image.name}"
-            with open(filename, "wb") as f:
-                f.write(image.data)
+            stem = f"page{page_num:03d}_{count:03d}"
+
+            # On normalise tout en PNG : certains PDF stockent les figures et
+            # tableaux en JPEG 2000 (.jp2), un format que beaucoup d'agents et de
+            # viewers ne savent pas lire. Passer par Pillow garantit un PNG lisible.
+            pil = getattr(image, "image", None)
+            if pil is not None:
+                if pil.mode in ("CMYK", "P", "LA", "RGBA"):
+                    pil = pil.convert("RGB")
+                pil.save(out / f"{stem}.png")
+            else:
+                # Repli : pas de Pillow → on écrit les octets bruts tels quels.
+                with open(out / f"{stem}_{image.name}", "wb") as f:
+                    f.write(image.data)
 
     if count == 0:
         print(f"Aucune image trouvée dans {pdf_path} "
