@@ -20,7 +20,7 @@
 ## 💡 En une phrase
 
 Un document de **30 pages** que personne n'a le temps de lire devient une
-**synthèse d'une page** — structurée, fidèle au texte, et qui cite ses sources.
+**synthèse d'une ou deux pages** — structurée, fidèle au texte, et qui cite ses sources.
 
 ## 🎯 Le problème
 
