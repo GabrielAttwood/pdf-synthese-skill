@@ -30,6 +30,33 @@ document, tout en restant **traçable** : chaque affirmation renvoie à sa sourc
 - Lire **l'intégralité** du document avant de rédiger. Ne pas se contenter du
   résumé ou de l'introduction.
 
+### Préparation : ne pas se limiter au texte converti
+
+Beaucoup de PDF ont une partie de leur contenu **uniquement dans des images** :
+documents scannés, mises en page graphiques, **tableaux et figures intégrés en
+image**. Lire le PDF seulement « en texte » fait alors rater des données
+importantes (ou tout le document, s'il est scanné).
+
+**Avant de rédiger**, extraire les images du PDF et les **regarder** :
+
+```bash
+python3 extract_images.py <document.pdf> images/
+```
+
+(Le script est fourni avec ce skill. Dépendances : `pip install pypdf pillow`.)
+
+Il inspecte les objets image du PDF (`/XObject` de sous-type `/Image`), décode
+leurs données et les écrit en PNG/JPG dans `images/`.
+
+Ensuite :
+
+- **Examiner visuellement** les images extraites (graphiques, tableaux, schémas),
+  en plus du texte.
+- Si le document est **principalement composé d'images** (texte converti vide ou
+  incohérent), s'appuyer en priorité sur les images pour rédiger la synthèse.
+- Reporter les **données chiffrées issues des tableaux/figures en image** dans la
+  section « Données & faits marquants », en citant la page.
+
 ## Sortie
 
 ### 1. Rapport Markdown (toujours)
@@ -117,7 +144,8 @@ Ces règles ne sont pas optionnelles. Elles garantissent un rapport fiable.
 ## Étapes d'exécution (résumé)
 
 1. Identifier le PDF à analyser (chemin fourni, sinon dossier courant / `pdf/`).
-2. Lire tout le document.
-3. Créer `rapport/` si besoin et y rédiger le rapport Markdown selon la structure imposée.
-4. Tester `pdflatex` ; si présent, générer et compiler la version `.tex` → PDF.
-5. Indiquer à l'utilisateur les fichiers produits.
+2. Extraire les images (`extract_images.py`) et les **regarder**, en plus du texte.
+3. Lire tout le document (texte + images).
+4. Créer `rapport/` si besoin et y rédiger le rapport Markdown selon la structure imposée.
+5. Tester `pdflatex` ; si présent, générer et compiler la version `.tex` → PDF.
+6. Indiquer à l'utilisateur les fichiers produits.

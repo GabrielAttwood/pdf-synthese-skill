@@ -1,0 +1,100 @@
+# Pour la France, la contrainte externe n'a pas disparu — André Cartapanis (2022)
+
+*Note publiée par le Cercle des économistes, en prélude aux 22ᵉ Rencontres
+Économiques d'Aix-en-Provence. Auteur : André Cartapanis, professeur à Sciences
+Po Aix (p. 3).*
+
+## Résumé exécutif
+
+On affirme souvent qu'en union monétaire la « contrainte externe » a disparu.
+L'auteur soutient que c'est faux pour la France : son déficit extérieur, lié à
+ses déficits budgétaires, pèse sur la soutenabilité de sa dette vis-à-vis du
+reste du monde et sur ses conditions de financement (p. 3). À l'appui de données
+du FMI, il montre que la France cumule un déficit courant récurrent, un déficit
+budgétaire persistant et un endettement externe croissant, ce qui réduit ses
+marges de manœuvre — sans pour autant conclure à une crise imminente (p. 15).
+
+## Contexte & problématique
+
+Le déficit commercial français de mars 2022 (plus de 12 milliards d'euros, soit
+environ 100 milliards en données glissantes sur douze mois) relance l'attention
+sur la balance des paiements (p. 4). La question centrale : l'appartenance à la
+zone euro protège-t-elle réellement la France de la contrainte externe, ou
+celle-ci s'est-elle simplement déplacée vers l'endettement et son financement
+(p. 3, p. 12) ?
+
+## Points clés
+
+- La France enregistre **structurellement** des déficits de balance des paiements
+  courants depuis 2014, alors que la zone euro dégage des excédents systématiques
+  — un « paradoxe » pour un pays membre de cette zone (p. 4, p. 6).
+- D'un point de vue macroéconomique, un déficit courant traduit une épargne
+  interne insuffisante pour financer l'investissement et le déficit budgétaire,
+  d'où un recours à l'endettement externe (p. 7).
+- Un déficit courant n'est pas « bon » ou « mauvais » en soi : tout dépend de ses
+  causes et de sa soutenabilité dans le temps (p. 8-9).
+- Le principal risque associé à un déficit courant est le *sudden stop* : un arrêt
+  brutal des entrées de capitaux si la perception du risque change (p. 9-10).
+- La crise de la zone euro (2010-2014) prouve que l'appartenance à l'union
+  monétaire n'a pas supprimé les crises de balance des paiements : c'était une
+  « illusion » des fondateurs de l'euro (p. 10-12).
+- Pour la France, les déficits courants sont « indiscutablement liés aux déficits
+  budgétaires » qui pèsent sur l'équilibre épargne-investissement (p. 13).
+- La France fait partie des rares économies à cumuler déficit courant récurrent,
+  déficit budgétaire non résorbé et fort endettement externe, le tout avec une
+  croissance potentielle faible (p. 15).
+
+## Données & faits marquants
+
+- Déficit commercial de mars 2022 : > 12 milliards d'euros ; ~100 milliards en
+  cumul sur douze mois (p. 4).
+- Déficit courant 2022 projeté par le FMI : ~54 milliards de dollars, soit
+  ~1,8 % du PIB (p. 4-5).
+- Déficit courant 2020 (Banque de France) : 43,7 milliards d'euros (1,9 % du PIB),
+  plus haut niveau depuis 1982 (p. 6).
+- Excédents courants de la zone euro : entre 250 et 400 milliards de dollars
+  (1,9 % à 3,2 % du PIB agrégé) (p. 6).
+- Déficits courants 2022 : États-Unis 877,8 milliards $ (3,5 % du PIB) ;
+  Royaume-Uni 184,4 milliards (5,5 % du PIB) (p. 6).
+- Déficit budgétaire français : ~3-4 % du PIB depuis 2013, puis 9,1 % en 2020 et
+  7 % en 2021 (p. 13).
+- Endettement public français : 83 % du PIB en 2013, 88,8 % en 2019, au-delà de
+  100 % après la pandémie (p. 13-14).
+- Endettement net externe : 547 milliards d'euros en 2017 → 694 milliards en 2020
+  (de 21,1 % à 26,4 % du PIB) (p. 14).
+- La position extérieure nette dépasse le seuil de 30 %, sans atteindre le seuil
+  officiel de 35 % qui déclenche la procédure européenne de déséquilibre
+  macroéconomique excessif (p. 14-15).
+
+## Termes & concepts clés
+
+- **Contrainte externe** : limite imposée à un pays par la nécessité d'équilibrer
+  ses échanges avec le reste du monde (sa balance des paiements).
+- **Balance des paiements courants** : solde des échanges de biens, services et
+  revenus d'un pays avec l'étranger.
+- **Déficit / excédent courant** : un déficit signifie qu'un pays dépense plus
+  qu'il ne produit et doit s'endetter auprès de l'étranger ; un excédent,
+  l'inverse (p. 7).
+- **Sudden stop** : interruption brutale des entrées de capitaux étrangers, qui
+  peut déclencher une crise (p. 9-10).
+- **Position extérieure nette** : différence entre ce qu'un pays détient à
+  l'étranger et ce qu'il doit à l'étranger (p. 14).
+- **TARGET2** : système de règlement entre banques centrales de la zone euro,
+  révélateur des tensions de balance des paiements internes à la zone (p. 12).
+- **Global saving glut** : « excès d'épargne mondiale », concept de Ben Bernanke
+  évoqué pour le risque futur d'une raréfaction de l'épargne disponible (p. 16).
+
+## À retenir
+
+L'auteur ne formule pas de recommandations chiffrées : en union monétaire, la
+dévaluation n'est plus disponible, et le problème français ne vient pas d'un
+déficit de compétitivité-prix mais d'un déséquilibre macroéconomique d'ensemble,
+d'une croissance potentielle faible et d'une spécialisation insuffisante dans les
+produits à haute valeur ajoutée (p. 17). Sa conclusion : la France ne peut pas
+reporter indéfiniment l'ajustement de ses comptes publics et de sa balance des
+paiements ; la contrainte externe n'a pas disparu (p. 17).
+
+**Limites / portée :** il s'agit d'une note d'analyse argumentée (point de vue
+d'auteur), pas d'une étude neutre. L'auteur souligne lui-même que la théorie
+économique « est incapable » de dire s'il existe un seuil de déclenchement d'un
+*sudden stop*, et que l'histoire « ne se répète jamais à l'identique » (p. 15).
